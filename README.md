@@ -1,30 +1,23 @@
-# 🐾 PawsCloud - Gestión Veterinaria Inteligente
+# 🐶 BarkFlow: Clinic & Grooming Manager
 
-PawsCloud es una solución de software diseñada para modernizar la gestión de clínicas veterinarias. Este MVP se centra en centralizar la información médica de los perritos y automatizar tareas administrativas críticas como la emisión de recetas y el control de vacunación.
 
-## 🚀 Características (MVP)
-- **Expediente Digital 360°:** Registro detallado de mascotas, incluyendo peso, raza, edad y alertas médicas.
-- **Módulo de Consultas:** Registro cronológico de visitas, síntomas y tratamientos.
-- **Recetario Automático:** Generación de PDFs profesionales con el plan de tratamiento.
-- **Control de Inmunización:** Semáforo de vacunas (Vencidas/Próximas/Al día).
+**BarkFlow** es una solución integral diseñada para modernizar veterinarias y estéticas caninas. Este sistema permite gestionar desde el historial clínico hasta el estilo de corte preferido de cada mascota, todo en una plataforma rápida y escalable.
+
+## 🎯 Problema que resuelve
+Las veterinarias locales suelen usar herramientas separadas o papel para gestionar citas médicas y turnos de estética. BarkFlow centraliza el historial de salud, alertas de temperamento y preferencias de corte en un solo perfil digital.
 
 ## 🛠️ Stack Tecnológico
-- **Frontend:** React.js, Tailwind CSS (Interfaz limpia y amigable).
-- **Backend:** Python 3.10+, FastAPI (Alto rendimiento y validación de tipos).
-- **Base de Datos:** SQLite / PostgreSQL (Vía SQLModel o SQLAlchemy).
-- **Documentación API:** Swagger UI (Integrado en `/docs`).
+- **Frontend:** React (Vite) + Tailwind CSS (UI moderna y responsiva).
+- **Backend:** Python 3.10+ (FastAPI) - Alta velocidad y validación de datos automática.
+- **Base de Datos:** PostgreSQL (vía SQLAlchemy ORM).
+- **Herramientas:** Pydantic (esquemas), ReportLab (generación de recetas/tickets), Lucide React (iconografía).
 
-## 📂 Estructura del Proyecto
-```text
-pawscloud/
-├── backend/            # FastAPI app
-│   ├── app/
-│   │   ├── models/     # Esquemas de BD
-│   │   ├── routes/     # Endpoints de API
-│   │   └── utils/      # Generador de PDF y lógica de fechas
-├── frontend/           # React app
-│   ├── src/
-│   │   ├── components/ # UI reusable (Tablas, Cards)
-│   │   ├── pages/      # Dashboard, Perfil Mascota
-│   │   └── hooks/      # Fetching de datos
-└── docs/               # Manuales o capturas de pantalla
+## ✨ Funcionalidades Destacadas (MVP)
+- **Expediente Único:** Historial clínico y catálogo de estética en un solo lugar.
+- **Smart Calendar:** Visualización de agenda filtrable por tipo de servicio.
+- **Alertas de Cuidado:** Indicadores visuales de alergias o comportamiento agresivo/nervioso.
+- **Exportación de Órdenes:** Generación de tickets de servicio y recetas en PDF.
+
+---
+
+Desarrollado con ❤️ para los perritos.
